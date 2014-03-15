@@ -1,0 +1,40 @@
+.page-header,
+section {
+	border-bottom: 1px solid #ddd;
+}
+
+header img {
+	margin-right: 20px;
+}
+
+header h1 {
+	margin-top: 60px;
+}
+
+section {
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+section div {
+	padding-top: 10px;
+}
+
+dd {
+	margin-left: 20px;
+}
+
+.works dd:before {
+	content: '-';
+}
+
+footer {
+	text-align: right;
+	padding-bottom: 10px;
+}
+
+footer a {
+	margin-left: 10px;
+	padding-left: 10px;
+	border-left: 1px solid #ccc;
+}
