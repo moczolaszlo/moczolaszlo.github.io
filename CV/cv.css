@@ -50,3 +50,9 @@ footer a {
 	padding-left: 10px;
 	border-left: 1px solid #ccc;
 }
+
+footer a:first-child {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
