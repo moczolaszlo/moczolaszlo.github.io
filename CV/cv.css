@@ -15,6 +15,14 @@ header address {
 	padding-top: 80px;
 }
 
+header address i {
+	margin-right: 10px;
+}
+
+header address i.fa-envelope {
+	margin-right: 8px;
+}
+
 section {
 	margin-bottom: 10px;
 	padding-bottom: 10px;
