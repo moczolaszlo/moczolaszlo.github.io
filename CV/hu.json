@@ -1,0 +1,95 @@
+{
+	"contact": {
+		"title": "Kapcsolat",
+		"items": [
+			{
+				"title": "Telefonszám",
+				"icon": "phone",
+				"text": "+36-20-279-5205",
+				"link": "tel:+36202795205"
+			},
+			{
+				"title": "Skype",
+				"icon": "skype",
+				"text": "moczo.laszlo83",
+				"link": "skype:moczo.laszlo83"
+			},
+			{
+				"title": "Email",
+				"icon": "envelope",
+				"text": "moczo.laszlo@gmail.com",
+				"link": "mailto:moczo.laszlo@gmail.com"
+			},
+			{
+				"title": "Linkedin",
+				"icon": "linkedin",
+				"text": "www.linkedin.com/in/moczolaszlo",
+				"link": "https://www.linkedin.com/in/moczolaszlo"
+			}
+		]
+	},
+	"skills": {
+		"title": "Ismeretek",
+		"programming": {
+			"title": "Fejlesztés",
+			"items": {
+				"HTML": "10+ év",
+				"CSS": "10+ év",
+				"SASS": "2+ év",
+				"jQuery": "8+ év",
+				"Natív JavaScript": "5+ év"
+			}
+		},
+		"others": {
+			"title": "Egyéb",
+			"items": {
+				"Windows": "15+ év",
+				"OSX": "1+ év",
+				"Unix shell": "1+ év",
+				"Adobe Photoshop": "8+ év",
+				"Angol": "Középszint"
+			}
+		}
+	},
+	"experience": {
+		"title": "Tapasztalatok",
+		"works": "Feladatok, munkák",
+		"items": [
+			{
+				"name": "HPS Digital",
+				"period": "2011-2014",
+				"link": "hps.hu",
+				"position": "A front-end fejlesztés vezetője",
+				"links": ["hps.hu", "tuc.hu", "tuc-rio.com", "belvitajoreggelt.hu"],
+				"others": "És rengeteg Facebook alkalmazás, promóciós microsite és adminisztráció felület."
+			},
+			{
+				"name": "Kirowski Isobar",
+				"period": "2010-2011",
+				"link": "kirowskiisobar.hu",
+				"position": "Senior sitebuilder",
+				"others": ["A Telekom csoport weblapjainak fejlesztése", "Promóciós microsite-ok", "Facebook aplikációk"]
+			},
+			{
+				"name": "Docler Holding",
+				"period": "2009-2010",
+				"link": "doclerholding.com",
+				"position": "Front-end fejlesztő",
+				"others": ["Egy nemzetközi felnőtt tartalamt szolgáltató site karbantartása.", "VOD szolgáltatáshoz adminisztráció felület készítése."]
+			},
+			{
+				"name": "HáziPatika.com",
+				"period": "2007-2009",
+				"link": "hazipatika.com",
+				"position": "Sitebuilder",
+				"others": ["Három magyar piacvezető site karbantartása."]
+			}
+		]
+	},
+	"footer": {
+		"targetLangId": "en",
+		"targetLangText": "In english",
+		"print": "Nyomtatás",
+		"top": "Vissza az elejére"
+	}
+}

@@ -1,0 +1,95 @@
+{
+	"contact": {
+		"title": "Contact",
+		"items": [
+			{
+				"title": "Phone",
+				"icon": "phone",
+				"text": "+36-20-279-5205",
+				"link": "tel:+36202795205"
+			},
+			{
+				"title": "Skype",
+				"icon": "skype",
+				"text": "moczo.laszlo83",
+				"link": "skype:moczo.laszlo83"
+			},
+			{
+				"title": "Email",
+				"icon": "envelope",
+				"text": "moczo.laszlo@gmail.com",
+				"link": "mailto:moczo.laszlo@gmail.com"
+			},
+			{
+				"title": "Linkedin",
+				"icon": "linkedin",
+				"text": "www.linkedin.com/in/moczolaszlo",
+				"link": "https://www.linkedin.com/in/moczolaszlo"
+			}
+		]
+	},
+	"skills": {
+		"title": "Skills",
+		"programming": {
+			"title": "Programming",
+			"items": {
+				"HTML": "10+ years",
+				"CSS": "10+ years",
+				"SASS": "2+ years",
+				"jQuery": "8+ years",
+				"Native JavaScript": "5+ years"
+			}
+		},
+		"others": {
+			"title": "Others",
+			"items": {
+				"Windows": "15+ years",
+				"OSX": "1+ years",
+				"Unix shell": "1+ years",
+				"Adobe Photoshop": "8+ years",
+				"English": "Limited working proficiency"
+			}
+		}
+	},
+	"experience": {
+		"title": "Work Experience",
+		"works": "Works",
+		"items": [
+			{
+				"name": "HPS Digital",
+				"period": "2011-2014",
+				"link": "hps.hu",
+				"position": "Leader of the front-end development",
+				"links": ["hps.hu", "tuc.hu", "tuc-rio.com", "belvitajoreggelt.hu"],
+				"others": "And a lot of Facebook applications, promotional microsites and admin interfaces."
+			},
+			{
+				"name": "Kirowski Isobar",
+				"period": "2010-2011",
+				"link": "kirowskiisobar.com",
+				"position": "Senior sitebuilder",
+				"others": ["Maintenance of the sites of Telekom Group ", "Promotional microsites", "Facebook applications"]
+			},
+			{
+				"name": "Docler Holding",
+				"period": "2009-2010",
+				"link": "doclerholding.com",
+				"position": "Front-end developer",
+				"others": ["Maintenance of an international adult website", "Admin interface for a VOD service"]
+			},
+			{
+				"name": "HáziPatika.com",
+				"period": "2007-2009",
+				"link": "hazipatika.com",
+				"position": "Sitebuilder",
+				"others": ["Maintenance of three hungarian portal"]
+			}
+		]
+	},
+	"footer": {
+		"targetLangId": "hu",
+		"targetLangText": "Magyarul",
+		"print": "Print",
+		"top": "To top"
+	}
+}
