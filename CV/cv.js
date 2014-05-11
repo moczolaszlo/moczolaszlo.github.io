@@ -30,7 +30,6 @@ var CV = {
 	},
 	generateSite: function(lang) {
 		$.getJSON(lang + '.json', function(data){
-			console.log(data)
 			$('address').html(CV.templates.contact.render(data.contact));
 			$('#skills').html(CV.templates.skills.render(data.skills));
 			$('#experience').html(CV.templates.experience.render(data.experience));
@@ -43,5 +42,7 @@ var CV = {
 		CV.generateSite('hu');
 	}
 }
+
+(function(){if(!win.console)win.console={log:function(){}};})();
 
 $(document).on('ready', CV.init);
