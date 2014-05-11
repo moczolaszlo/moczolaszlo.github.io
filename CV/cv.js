@@ -1,4 +1,5 @@
-var CV = {
+var win = window,
+	CV = {
 
 	templates: {
 		contact : $.templates('#tpl-contact'),
