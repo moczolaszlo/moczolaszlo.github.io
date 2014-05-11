@@ -1,5 +1,4 @@
-var win = window,
-	CV = {
+var CV = {
 
 	templates: {
 		contact : $.templates('#tpl-contact'),
@@ -43,7 +42,5 @@ var win = window,
 		CV.generateSite('hu');
 	}
 }
-
-(function(){if(!win.console)win.console={log:function(){}};})();
 
 $(document).on('ready', CV.init);
