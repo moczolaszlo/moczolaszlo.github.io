@@ -12,6 +12,9 @@
 	<![endif]-->
 </head>
 <body>
+	<div class="alert alert-success">
+		<strong>Köszönöm az érdeklődést,</strong> jelenleg nem keresek munkát.
+	</div>
 	<div class="container">
 		<header class="page-header row">
 			<div class="col-xs-8">
@@ -33,7 +36,9 @@
 	<script id="tpl-contact" type="text/x-jsrender">
 		<h4>{{:title}}:</h4>
 		{{for items}}
-			<i class="fa fa-{{:icon}}"></i>{{:title}}: <a href="{{:link}}">{{:text}}</a><br>
+			{{if title == 'Linkedin'}}
+				<i class="fa fa-{{:icon}}"></i>{{:title}}: <a href="{{:link}}">{{:text}}</a><br>
+			{{/if}}
 		{{/for}}
 	</script>
 
