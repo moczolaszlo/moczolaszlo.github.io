@@ -5,12 +5,12 @@ var win = window,
 
 	Site = {
 		bindEvents: function() {
-
 			$('a').on('click', function(e){
-				var link = this;
+				var link = this,
+					linkArray = link.href.split('/');
 				if (!link.target) {
 					e.preventDefault();
-					Site.showSection(link.href.split('http://localhost/')[1]);
+					Site.showSection(linkArray[linkArray.length-1]);
 				}
 			});
 
@@ -27,7 +27,6 @@ var win = window,
 				'min-height': $win.height() - $('header').height(),
 				opacity: 1
 			})
-			console.log();
 		},
 		init: function() {
 			Site.bindEvents();
