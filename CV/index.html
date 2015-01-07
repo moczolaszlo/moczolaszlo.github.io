@@ -3,18 +3,15 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Moczó László</title>
-	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
-	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-	<link rel="stylesheet" href="cv.css">
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="cv.css?20150107">
 	<!--[if lt IE 9]>
-		<script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
 	<![endif]-->
 </head>
 <body>
-	<div class="alert alert-success">
-		<strong>Köszönöm az érdeklődést,</strong> jelenleg nem keresek munkát.
-	</div>
 	<div class="container">
 		<header class="page-header row">
 			<div class="col-xs-8">
@@ -36,9 +33,7 @@
 	<script id="tpl-contact" type="text/x-jsrender">
 		<h4>{{:title}}:</h4>
 		{{for items}}
-			{{if title == 'Linkedin'}}
-				<i class="fa fa-{{:icon}}"></i>{{:title}}: <a href="{{:link}}">{{:text}}</a><br>
-			{{/if}}
+			<i class="fa fa-{{:icon}}"></i>{{:title}}: <a href="{{:link}}">{{:text}}</a><br>
 		{{/for}}
 	</script>
 
@@ -88,13 +83,15 @@
 				</div>
 				<div class="col-xs-4">
 					<dl class="works">
-						<dt><h5>{{:~works}}</h5></dt>
-						{{for links}}
-							<dd><a href="http://www.{{:#data}}" target="_blank">{{:#data}}</a></dd>
-						{{/for}}
-						{{for others}}
-							<dd>{{:#data}}</dd>
-						{{/for}}
+						{{if links || others}}
+							<dt><h5>{{:~works}}</h5></dt>
+							{{for links}}
+								<dd><a href="http://www.{{:#data}}" target="_blank">{{:#data}}</a></dd>
+							{{/for}}
+							{{for others}}
+								<dd>{{:#data}}</dd>
+							{{/for}}
+						{{/if}}
 					</dl>
 				</div>
 			</div>
@@ -102,11 +99,13 @@
 	</script>
 
 	<script id="tpl-footer" type="text/x-jsrender">
-		<a href="#{{:targetLangId}}">{{:targetLangText}}</a><a href="#print"><i class="fa fa-print"></i> {{:print}}</a><a href="#top"><i class="fa fa-arrow-up"></i> {{:top}}</a>
+		<a href="#{{:targetLangId}}">{{:targetLangText}}</a>
+		<a href="#print"><i class="fa fa-print"></i> {{:print}}</a>
+		<a href="#top"><i class="fa fa-arrow-up"></i> {{:top}}</a>
 	</script>
 
-	<script src="jquery-1.11.1.min.js"></script>
+	<script src="jquery.min.js"></script>
 	<script src="jsrender.min.js"></script>
-	<script src="cv.js?1"></script>
+	<script src="cv.js?20150107"></script>
 </body>
 </html>

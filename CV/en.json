@@ -5,8 +5,8 @@
 			{
 				"title": "Phone",
 				"icon": "phone",
-				"text": "+36-20-279-5205",
-				"link": "tel:+36202795205"
+				"text": "+36-30-8833-977",
+				"link": "tel:+36308833977"
 			},
 			{
 				"title": "Skype",
@@ -56,19 +56,25 @@
 		"works": "Works",
 		"items": [
 			{
+				"name": "Novusoftware Kft.",
+				"period": "2014-2015",
+				"link": "novusoftware.hu",
+				"position": "Front-end developer"
+			},
+			{
 				"name": "HPS Digital",
 				"period": "2011-2014",
 				"link": "hps.hu",
 				"position": "Leader of the front-end development",
-				"links": ["hps.hu", "tuc.hu", "tuc-rio.com", "belvitajoreggelt.hu"],
-				"others": "And a lot of Facebook applications, promotional microsites and admin interfaces."
+				"links": ["hps.hu", "tuc.hu", "belvitajoreggelt.hu"],
+				"others": "Several Facebook applications, promotional microsites and admin interfaces."
 			},
 			{
 				"name": "Kirowski Isobar",
 				"period": "2010-2011",
 				"link": "kirowskiisobar.com",
 				"position": "Senior sitebuilder",
-				"others": ["Maintenance of the sites of Telekom Group ", "Promotional microsites", "Facebook applications"]
+				"others": ["Maintenance of the Telekom Group sites", "Promotional microsites", "Facebook applications"]
 			},
 			{
 				"name": "Docler Holding",

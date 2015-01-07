@@ -5,8 +5,8 @@
 			{
 				"title": "Telefonszám",
 				"icon": "phone",
-				"text": "+36-20-279-5205",
-				"link": "tel:+36202795205"
+				"text": "+36-30-8833-977",
+				"link": "tel:+36308833977"
 			},
 			{
 				"title": "Skype",
@@ -35,7 +35,7 @@
 			"items": {
 				"HTML": "10+ év",
 				"CSS": "10+ év",
-				"SASS": "2+ év",
+				"SASS": "3+ év",
 				"jQuery": "8+ év",
 				"Natív JavaScript": "5+ év"
 			}
@@ -44,7 +44,7 @@
 			"title": "Egyéb",
 			"items": {
 				"Windows": "15+ év",
-				"OSX": "1+ év",
+				"OSX": "2+ év",
 				"Unix shell": "1+ év",
 				"Adobe Photoshop": "8+ év",
 				"Angol": "Középszint"
@@ -56,11 +56,17 @@
 		"works": "Feladatok, munkák",
 		"items": [
 			{
+				"name": "Novusoftware Kft.",
+				"period": "2014-2015",
+				"link": "novusoftware.hu",
+				"position": "Front-end fejlesztő"
+			},
+			{
 				"name": "HPS Digital",
 				"period": "2011-2014",
 				"link": "hps.hu",
 				"position": "A front-end fejlesztés vezetője",
-				"links": ["hps.hu", "tuc.hu", "tuc-rio.com", "belvitajoreggelt.hu"],
+				"links": ["hps.hu", "tuc.hu", "belvitajoreggelt.hu"],
 				"others": "És rengeteg Facebook alkalmazás, promóciós microsite és adminisztráció felület."
 			},
 			{
