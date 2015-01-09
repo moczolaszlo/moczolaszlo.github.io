@@ -1,0 +1,58 @@
+{
+	"data": [
+		{
+			"type": "leads",
+			"isOpened": true,
+			"title": "Leads",
+			"count": "233,456",
+			"excludingText": "excluding 1,559,801 inactive leads",
+			"percent": 13,
+			"days": 30,
+			"spend": 20,
+			"product": "accessories"
+		},
+		{
+			"type": "firstTimeBuyers",
+			"isOpened": false,
+			"title": "First-time buyers",
+			"count": "233,456",
+			"excludingText": "excluding 1,559,801 inactive leads",
+			"percent": 7,
+			"days": 30,
+			"spend": 20,
+			"product": "accessories"
+		},
+		{
+			"type": "activeCostumers",
+			"isOpened": false,
+			"title": "Active costumers",
+			"count": "233,456",
+			"excludingText": "excluding 1,559,801 inactive leads",
+			"percent": 20,
+			"days": 30,
+			"spend": 20
+		},
+		{
+			"type": "defectingCostumers",
+			"isOpened": false,
+			"title": "Defecting costumers",
+			"count": "233,456",
+			"excludingText": "excluding 1,559,801 inactive leads",
+			"percent": 8,
+			"days": 30,
+			"spend": 20,
+			"product": "accessories"
+		},
+		{
+			"type": "inactiveCostumers",
+			"isOpened": false,
+			"title": "Inactive costumers",
+			"count": "233,456",
+			"excludingText": "excluding 1,559,801 inactive leads",
+			"percent": 3,
+			"days": 30,
+			"spend": 20,
+			"product": "accessories"
+		}
+	]
+}

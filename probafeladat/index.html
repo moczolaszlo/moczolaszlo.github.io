@@ -1,0 +1,93 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>Emarsys</title><link href="//fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"><link href="static/css/style.css?v=1420815031972" rel="stylesheet"><script src="static/js/modernizr.js?v=1420815031972"></script></head><body><main class="wrapper"><footer><a href="http://www.emarsys.com/" target="_blank"><img src="static/img/logo-emarsys.svg" alt="Emarsys logo"></a> <a href="#nogo">Service</a></footer></main><script id="tpl-box" type="text/x-jsrender"><section class="box {{if isOpened}}is-opened{{/if}}" data-type="{{:type}}">
+			<div class="row">
+				<div class="column width-30">
+					<div class="info-left width-50">
+						<h2>{{:title}}</h2>
+						<strong class="counter">{{:count}}</strong>
+						{{if excludingText}}
+							<p>
+								{{:excludingText}}
+							</p>
+						{{/if}}
+					</div>
+					<div class="info-right width-50">
+						<div class="chart pie"></div>
+						<div class="rate">
+							Conversion rate<br>
+							in the last {{:days}} days
+						</div>
+					</div>
+				</div>
+				<div class="column width-40">
+					<p class="text-lineChart">
+						<strong class="counter">16,910</strong> leads became first-time buyers in the last 30 days
+					</p>
+					<div class="chart line"></div>
+					<p class="text-lineChart">
+						<strong class="counter">16,910</strong> leads became first-time buyers in the last 30 days
+					</p>
+					<div class="chart line"></div>
+				</div>
+				<div class="column width-30 buys">
+					<table>
+						<tr>
+							<th>average spend</th>
+							{{if product}}
+								<th>mostly bought</th>
+							{{/if}}
+						</tr>
+						<tr>
+							<td>
+								<strong class="counter">{{:spend}}</strong> <span class="currency">EUR</span>
+							</td>
+							{{if product}}
+								<td>
+									<strong class="product">{{:product}}</strong>
+								</td>
+							{{/if}}
+						</tr>
+					</table>
+					<p>
+						when converting to first-time buyers<br>
+						in the <strong>last 30 days</strong>
+					</p>
+				</div>
+			</div>
+			<div class="row row-more">
+				<div class="content-more">
+					<h3 class="tab">Predictive revenue</h3>
+					<div class="cell" data-type="gain">
+						<span class="label">Predective <strong>gain</strong></span>
+						<span class="data">1,521,900</span>
+						<span class="info">i</span>
+					</div>
+					<div class="cell" data-type="growth">
+						<span class="label">Assets value <strong>growth</strong></span>
+						<span class="data">1,014,600</span>
+						<span class="info">i</span>
+					</div>
+					<div class="cell" data-type="purchases">
+						<span class="label">Purchases from leads in the <strong>last 30 days</strong> converting to 1<sup>st</sup> time buyers</span>
+						<span class="data">507,300</span>
+						<span class="info">i</span>
+					</div>
+					<div class="cell"></div>
+					<div class="cell" data-type="loss">
+						<span class="label">Predective <strong>loss</strong></span>
+						<span class="data">470,160</span>
+						<span class="info">i</span>
+
+					</div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+					<div class="cell"></div>
+				</div>
+			</div>
+			<button class="button button-more js-toggle" data-text-less="Less" data-text-more="More">
+				{{if isOpened}}
+					Less
+				{{else}}
+					More
+				{{/if}}
+			</button>
+		</section></script><script src="static/js/script.js?v=1420815031972"></script></body></html>
