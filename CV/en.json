@@ -3,12 +3,6 @@
 		"title": "Contact",
 		"items": [
 			{
-				"title": "Phone",
-				"icon": "phone",
-				"text": "+36-30-8833-977",
-				"link": "tel:+36308833977"
-			},
-			{
 				"title": "Skype",
 				"icon": "skype",
 				"text": "moczo.laszlo83",
