@@ -39,7 +39,7 @@ var CV = {
 	},
 	init: function() {
 		CV.bindEvents();
-		CV.generateSite('hu');
+		CV.generateSite('en');
 	}
 }
 

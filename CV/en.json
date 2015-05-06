@@ -17,8 +17,14 @@
 			{
 				"title": "Linkedin",
 				"icon": "linkedin",
-				"text": "www.linkedin.com/in/moczolaszlo",
+				"text": "linkedin.com/in/moczolaszlo",
 				"link": "https://www.linkedin.com/in/moczolaszlo"
+			},
+			{
+				"title": "GitHub",
+				"icon": "github",
+				"text": "github.com/moczolaszlo",
+				"link": "https://github.com/moczolaszlo"
 			}
 		]
 	},
