@@ -1,2 +1,0 @@
-moczolaszlo.github.io
-=====================
